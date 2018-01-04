@@ -1,0 +1,308 @@
+
+/*LEFT COL*/
+.left-col{
+    
+    border: 1px solid black;
+}
+
+.left-col h3{
+    margin-top: 20px;
+}
+
+.left-col img{
+    
+    width: 100%;
+    margin-top: 20px;
+}
+
+.left-col h4{
+    margin-top: 10px;
+}
+
+.left-col p{
+    margin-top: 10px;
+}
+
+.left-col div{
+    margin-top: 10px;
+}
+
+
+
+/*read more button code starts*/
+
+  .button
+	{
+    background-color: #EF5B3F;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+   /* text-align: center;*/
+    /*text-decoration: none;*/
+    /*display: inline-block;*/
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+	}
+	
+	 .button:hover
+	{
+    background-color: #EF5B3F;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    /*text-decoration: none;*/
+    /*display: inline-block;*/
+    font-size: 12px;
+    margin: 4px 2px;
+   
+	}
+	
+	
+	.btn
+	{
+    
+    width: 40%;
+    height: 25px;
+    border-radius: 0%;
+    display: inline-block;
+    background-color: #EF5B3F;
+   
+	}
+
+
+.btn-img{
+    
+    background-image: url(../images/read_more_btn.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+#btn{
+    background-image: url(../images/read_more_btn.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+   
+}
+
+	.monBouton:after
+	{
+		background-color: #EF5B3F;
+		background-image : url(../images/read_more_btn.png);
+	}
+	
+	/*read more button code ends*/
+	
+	
+	.sale_div_margin
+	{
+		margin-top:20px;
+		margin-left:20px;
+	}
+	.rosta_img_margin
+	{
+		margin-top:10px;
+		margin-left:20px;
+	}
+	
+	
+	.view_calender_btn
+	{
+		height:50px;
+		width:100%;
+	}
+	
+	
+	
+	.bg_img
+	{
+		background-image:url(../images/bg_img.jpg);
+	}
+	
+/*subscription code starts */
+.sub_name_txt
+{
+   width:95%;
+   padding:12px;
+   /* margin-left:20px;*/
+   margin-bottom:6px;
+   display: inline-block;
+   /*border: 1px solid #ccc;*/
+   /*box-sizing: border-box;*/
+}
+
+.sub_email_txt
+{
+    width:95%;
+    padding:12px;
+ 	/*  margin-left:20px;*/
+     margin-bottom:5px;
+   
+  /* margin-bottom:6px;*/
+    display: inline-block;
+    /*border: 1px solid #ccc;*/
+    /*box-sizing: border-box;*/
+}
+
+ .sub_btn
+ {
+	width:30%;
+    padding:12px;
+    margin-left:235px;
+	margin-bottom:10px;
+    display: inline-block;
+    /*border: 1px solid #ccc;*/
+    /*box-sizing: border-box;*/
+	background-color:#EF5B3F;
+    color: white;
+    border: none;
+	
+ }
+
+ .newsLetter_text
+ {
+	 margin-left:10px;
+	 background-color:#EF5B3F;
+	  font-size:20px;
+	  font-weight: bold;
+	  color:#FFF;
+	  /*display:inline-block;*/
+	  clear:both;
+	  
+ }
+.sub_text
+{
+	  margin-bottom:20px;
+	  margin-left:10px;
+	  background-color:#FFF;
+	  /*display:inline-block;*/
+	  font-size:16px; 
+}
+ 
+ 
+ /*subscription code ends */
+ 
+  /*news preference code starts*/
+ 
+ .news_preference_block
+ {
+	 background-color:#EF5B3F;
+	 margin-top:25px;
+	
+ }
+ .news_prefer_text
+ {
+	 color:#fff;
+	 background-color:#EF5B3F;
+	 font-size:24px;
+	 font-weight: bold;
+	 
+ }
+ 
+ .radio_btn_div
+ {
+	 margin-top:20px;
+	 margin-left:20px;
+	 color:#fff;
+	 font-size:15px;
+	 
+ }
+ 
+  .btn_vote
+ {
+	width:30%;
+    padding:3px;
+    margin-left:120px;
+	margin-bottom:10px;
+	height:30px;
+    /*border: 1px solid #ccc;*/
+    /*box-sizing: border-box;*/
+	background-color:#fff;
+    color: #EF5B3F;
+    border: none;
+ }
+ 
+  /*news preference code ends*/
+  
+  
+  
+  
+   /*pagination code starts*/
+
+.pagination {
+	
+    display: inline-block;
+}
+.pagination a
+{
+	background:#383535;
+    color:white;
+    float:left;
+    padding: 8px 16px;
+    text-decoration: none;
+   /* transition: background-color .3s;*/
+    border: 1px solid #474445;
+    margin: 0 4px;
+}
+
+.pagination a.active
+{
+    background-color: #EF5B3F;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+
+/*first n last button code sttarts*/
+.pagination_first_last_btn
+{
+	background:red;
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    /* transition: background-color .3s;*/
+    border: 1px solid #474445;
+    margin: 0 4px;
+}
+/*first n last button code ends*/
+
+
+/*.pagination a:hover:not(.active) {background-color: #474445;}*/
+
+/*pagination code ends*/
+
+
+.pagination_alignment/*This is to align paginatoin div*/
+{
+	margin-top:70px;
+}
+
+
+.btn_calender_alignment/*This is to align view calender button*/
+{
+	margin-bottom:20px;
+}
+
+
+  .reg_now_alignment
+		{
+			margin-bottom:30px;
+			margin-top:20px;
+		}
+.top_alignment
+{
+	margin-top:10px;
+}
+
+.side_txt_alignment
+{
+	margin-top:10px;
+	background:#CCC;
+}
+
+
+.left_floating
+{
+	float:left;
+}
